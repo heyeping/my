@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="JS代码,相册代码,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为AJAX Photo Gallery，属于站长常用代码，更多相册代码代码请访问模板王
+JS代码频道。" />
+<title>我的历程
+</title>
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body onload="slideShow()">
+
+<!----------------导航条开始--------------------->
+<div id="nav">
+<ul>
+<li style="background-image:url(images/102.jpg)"><a href="index.html"><strong>我的首页</strong></a></li>
+<li style="background-image:url(images/01.jpg)"><a href="person-jianjie.html"><strong>个人简介</strong></a></li>
+<li  style="background-image:url(images/1234.jpg)"><a href="photo.html"><strong>偶的相册</strong></a></li>
+<li style="background-image:url(images/12345.jpg)"><a href="shouchang.html"><strong>我的收藏</strong></a></li>
+<li style="background-image:url(images/10.jpg)"><a href="#"><strong>我的心思</strong></a></li>
+</ul>
+</div>
+
+<!--------------导航条结束----------------------->
+
+<!----------------------照片浏览开始-------------------------->
+<div id="gallery">
+  <div id="imagearea">
+    <div id="image">
+      <a href="javascript:imgNav(-1)" class="imgnav " id="previmg"></a>
+      <a href="javascript:imgNav(1)" class="imgnav " id="nextimg"></a>
+    </div>
+  </div>
+  <div id="thumbwrapper">
+    <div id="thumbarea">
+      <ul id="thumbs">
+        <li value="1"><img src="thumbs/1.jpg" width="179" height="100" alt="" /></li>
+        <li value="2"><img src="thumbs/2.jpg" width="179" height="100" alt="" /></li>
+        <li value="3"><img src="thumbs/3.jpg" width="179" height="100" alt="" /></li>
+        <li value="4"><img src="thumbs/4.jpg" width="179" height="100" alt="" /></li>
+        <li value="5"><img src="thumbs/5.jpg" width="179" height="100" alt="" /></li>
+        <li value="6"><img src="thumbs/6.jpg" width="179" height="100" alt="" /></li>
+        <li value="7"><img src="thumbs/7.jpg" width="179" height="100" alt="" /></li>
+        <li value="8"><img src="thumbs/8.jpg" width="179" height="100" alt="" /></li>
+        <li value="9"><img src="thumbs/9.jpg" width="179" height="100" alt="" /></li>
+        <li value="10"><img src="thumbs/10.jpg" width="179" height="100" alt="" /></li>
+        <li value="11"><img src="thumbs/11.jpg" width="179" height="100" alt="" /></li>
+        <li value="12"><img src="thumbs/12.jpg" width="179" height="100" alt="" /></li>
+        <li value="13"><img src="thumbs/13.jpg" width="179" height="100" alt="" /></li>
+        <li value="14"><img src="thumbs/14.jpg" width="179" height="100" alt="" /></li>
+        <li value="15"><img src="thumbs/15.jpg" width="179" height="100" alt="" /></li>
+        <li value="16"><img src="thumbs/16.jpg" width="179" height="100" alt="" /></li>
+        <li value="17"><img src="thumbs/17.jpg" width="179" height="100" alt="" /></li>
+        <li value="18"><img src="thumbs/18.jpg" width="179" height="100" alt="" /></li>
+        <li value="19"><img src="thumbs/19.jpg" width="179" height="100" alt="" /></li>
+        <li value="20"><img src="thumbs/20.jpg" width="179" height="100" alt="" /></li>
+        <li value="21"><img src="thumbs/21.jpg" width="179" height="100" alt="" /></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!------------------照片浏览结束------------------------------>
+<script type="text/javascript">
+var imgid = 'image';
+var imgdir = 'fullsize';
+var imgext = '.jpg';
+var thumbid = 'thumbs';
+var auto = true;
+var autodelay = 5;
+</script>
+<script type="text/javascript" src="js/slide.js"></script>
+
+<div style="width:550px;margin:0 auto;">
+<p style="font-size:24px;"><strong>每走过一段路程，都有美好的回忆！</strong>&nbsp;&nbsp; &nbsp;&nbsp;<a href="photo-list.html">继续瞧瞧</a></p>
+</div>
+<!--------------背景音乐开始---------------------------------->
+<div id="bgsound">
+<audio controls="controls" autoplay="autoplay">
+<source src="video/萧风 - 贝多芬的悲伤.mp3" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
+</div>
+<!---------------背景音乐结束--------------------------------->
+
+</body>
+</html>

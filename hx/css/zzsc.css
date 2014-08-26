@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+
+
+/* tagscloud */
+#tagscloud{width:500px;
+           height:300px;
+		   font-size:12px;
+		   color:#333;
+		   text-align:center;
+		   margin:20px auto 0;
+		   position:relative;
+		   }
+#tagscloud a{position:absolute;
+             top:0px;
+			 left:0px;
+			 color:#333;
+			 font-family:Arial;
+			 text-decoration:none;
+			 margin:0 10px 15px 0;
+			 line-height:40px;
+			 text-align:center;
+			 font-size:24px;
+			 padding:1px 5px;
+			 display:inline-block;
+			 border-radius:3px;
+			 text-shadow: 5px 5px 5px #FF0000;
+			 }
+#tagscloud a.tagc1{background:url(../images/102.jpg);}
+#tagscloud a.tagc2{background:url(../images/01.jpg);}
+#tagscloud a.tagc5{background:url(../images/1234.jpg);}
+#tagscloud a.tagc7{background:url(../images/12345.jpg);}
+#tagscloud a.tagc9{background:url(../images/10.jpg);}
+
+#tagscloud a:hover{color:#fff;
+                   background:#0099ff;
+				   }
+#img1{float:left;
+      width:305px;
+	  height:305px;
+	  }
+#img1 p{padding:20px 20px 20px;
+        font-size:24px;
+		font-family:Tahoma, Geneva, sans-serif;
+		border-radius:10px; 
+		-webkit-transform:rotate(10deg); 
+		-moz-transform:rotate(10deg); 
+		-o-transform:rotate(10deg); 
+		transform:rotate(10deg);}
+#img1 p:first-letter{font-style:italic;
+                     font-size:xx-large;
+					 }
+#img2{float:right;
+      width:380px;
+	  height:300px;
+	  }
+#alt p{font-size:18px;
+       -webkit-transform:rotate(45deg); 
+	   -moz-transform:rotate(45deg); 
+	   -o-transform:rotate(45deg); 
+	   transform:rotate(45deg);
+	   font-family:"Arial Black", Gadget, sans-serif;
+	   text-shadow:40px 20px 2px #900;
+	   }
+#alt p:first-letter{font-style:italic;
+                    font-size:xx-large;
+					}
+#content{width:1000px;
+         margin:0 auto;
+		 height:1100px;
+		 border:double 2px #CCC;
+		 border-radius:25px;
+		 -moz-border-radius:25px;
+		 }
+#photo{margin:10px 10px 10px;
+       float:left;
+	   }
+#wenzi{float:left;
+       margin:10px 10px 10px;
+	   }
+#wenzi table{font-size:32px;
+             font-family:Tahoma, Geneva, sans-serif;
+             
+             }
+#xinxi{width:990px;height:325px;}

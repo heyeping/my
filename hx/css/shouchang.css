@@ -1,0 +1,72 @@
+@charset "utf-8";
+@-webkit-keyframes fadein{
+	0%{opacity:0;background-color:#000;}
+	25%{opacity:0.25;background-color:#000;}
+	50%{opacity:0.5;background-color:#000;}
+	75%{opacity:0.75;background-color:#000;}
+	100%{opacity:1;background-color:#000;}
+	}
+body {background: #000 url(../images/shouchang.png) no-repeat center 100px;
+      -webkit-animation-name:fadein;
+	  -webkit-animation-duration:5s;
+	  -webkit-animation-timing-function:linear;
+	  -webkit-animation-iteration-count:1;
+	  }
+
+/* CSS Document */
+
+#img1{float:left}
+#img2{float:right}
+
+/* tagscloud */
+#tagscloud{width:500px;
+           height:300px;
+		   font-size:12px;
+		   color:#333;
+		   text-align:center;
+		   margin:20px auto 0;
+		   position:relative;
+		   }
+#tagscloud a{position:absolute;
+             top:0px;
+			 left:0px;
+			 color:#333;
+			 font-family:Arial;
+			 text-decoration:none;
+			 margin:0 10px 15px 0;
+			 line-height:40px;
+			 text-align:center;
+			 font-size:24px;
+			 padding:1px 5px;
+			 display:inline-block;
+			 border-radius:3px;
+			 text-shadow: 5px 5px 5px #FF0000;
+			 }
+#tagscloud a.tagc1{background:url(../images/102.jpg);}
+#tagscloud a.tagc2{background:url(../images/01.jpg);}
+#tagscloud a.tagc5{background:url(../images/1234.jpg);}
+#tagscloud a.tagc7{background:url(../images/12345.jpg);}
+#tagscloud a.tagc9{background:url(../images/10.jpg);}
+
+#tagscloud a:hover{color:#fff;
+                   background:#0099ff;
+				   }
+#hh{width:1000px;
+    height:100px;
+	margin:0 auto;
+	}
+#content{margin:0 auto;
+         width:1000px;
+		 height:800px;
+		 }
+.container{background:#FFF; width:1000px; height:800px; clear:both; margin-top:1px; _margin-top:-1px;} 
+.sub-con{height:800px; width:1000px;border:1px solid #3CF; background:#FFF; display:none;} 
+.cur-sub-con{ display:block;} 
+.nav{ width:1000px; height:200px; margin-left:10px;} 
+.nav ul{width:1000px; height:200px;} 
+.nav ul li{ list-style:none; display:inline-block;*float:left;*margin-left:-1px;} 
+.nav ul li a{ background:#fff;border:1px solid #3CF; text-decoration:none; color:#000; height:28px;display:block;} 
+.nav ul li a:hover{ background:#CCEDFB} 
+.nav ul li a.cur{ z-index:9999;border-bottom:1px solid #FFF; color:#F00;} 
+#bgimg{position:absolute;}
+#nr1{position:relative;}
